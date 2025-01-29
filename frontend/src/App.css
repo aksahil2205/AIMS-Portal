@@ -1,0 +1,124 @@
+/* Centering the container */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border: 1px solid #007BFF;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login heading */
+.login-heading {
+  color: #007BFF;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Input fields styling */
+.input-field, .select-field {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #28a745;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input-field:focus, .select-field:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Dropdown select */
+.select-field {
+  background-color: #f9f9f9;
+}
+
+/* Button styling */
+.button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #d4e7dc;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+/* Message styling */
+.message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* AIMS Heading */
+.aims-heading {
+  background-color: #007BFF;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 36px;
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Hover effect to enlarge */
+.aims-heading:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Overall body theme */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Placeholder text styling */
+::placeholder {
+  color: #aaaaaa;
+  font-style: italic;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 90%;
+  }
+
+  .aims-heading {
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+}

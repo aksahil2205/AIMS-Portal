@@ -1,0 +1,116 @@
+/* Container styling */
+.assign-advisor-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title */
+  .assign-advisor-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Section divider */
+  .divider {
+    border: 1px solid #eee;
+    margin: 20px 0;
+  }
+  
+  /* Form labels */
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Dropdown select fields */
+  .select-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .select-field:focus {
+    border-color: #3498db;
+  }
+  
+  /* Assign button */
+  .assign-button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .assign-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .assign-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Table styling */
+  .table-container {
+    margin-bottom: 30px;
+  }
+  
+  .table-title {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table thead tr {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* No data message */
+  .no-data {
+    color: #777;
+    text-align: center;
+    font-style: italic;
+  }
+  
